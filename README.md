@@ -137,8 +137,16 @@ group by QTR_ID
 order by Revenue;
 
 
-# order count in each quater
+# oder count in each quater
 select QTR_ID, count(ORDERNUMBER) OderCount
 from sales
 group by QTR_ID
 order by OderCount;
+
+# DASHBOARD:-
+![Count report](https://github.com/user-attachments/assets/6476ea6f-6bc5-43e7-af7f-86949ba0ed25)
+![Revenue report](https://github.com/user-attachments/assets/9e7887c7-3fe2-475a-8965-5a77397d9cd4)
+![Revenue by Country report](https://github.com/user-attachments/assets/797392da-7321-4981-b7a8-42b458df09a0)
+![Sales report](https://github.com/user-attachments/assets/befb1fd8-10ac-4dff-b6a8-15c18e7af234)
+
+
